@@ -1,19 +1,77 @@
-// BinarySearchTree_4NIMBelakang
-// 15 Commit
-
 #include <iostream>
+#include <string>
 using namespace std;
 
-class Node
-{
+class Node {
 public:
-    int info;
-    Node *leftchild;
-    Node *rightchild;
+    string info;
+    Node* leftchild;
+    Node* rightchild;
 
-    // Constructor for the node
-    Node()
-    {
-        // isi constructor belum terlihat di gambar
+    Node(string i, Node* l, Node* r) {
+        info = i;
+        leftchild = l;
+        rightchild = r;
     }
 };
+
+class BinaryTree {
+
+    void insert(string element) {
+        
+        search(element, parent, currentNode);
+
+       
+
+     
+    }
+
+    void search(string element, Node*& parent, Node*& currentNode) {
+         {
+        
+        }
+    }
+
+    void inorder(Node* ptr) {
+        if (ROOT == NULL) {
+           
+        }
+        if (ptr != NULL) {
+           
+        }
+    }
+
+    void preorder(Node* ptr) {
+        if (ROOT == NULL) {
+           
+        }
+        if (ptr != NULL) {
+           
+        }
+    }
+
+    void postorder(Node* ptr) {
+        if (ROOT == NULL) {
+            
+        }
+        if (ptr != NULL) {
+           
+        }
+    }
+};
+
+int main() {
+    BinaryTree obj;
+    while (true) {
+       
+
+        char ch;
+        cin >> ch;
+        cout << endl;
+
+        switch (ch) {
+            
+            
+        }
+    }
+}
